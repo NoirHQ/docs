@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Noir",
   description: "Noir Architecture Decision Records",
+  base: "/adr/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
