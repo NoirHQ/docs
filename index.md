@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Noir"
-  tagline: Architecture Decision Records
+  text: Documentation
   actions:
     - theme: brand
-      text: ADRs
-      link: /README
+      text: ADR
+      link: /architecture/README
     - theme: alt
-      text: Process
-      link: /PROCESS
+      text: RFC
+      link: /rfc/README
 
 features:
   - title: Feature A

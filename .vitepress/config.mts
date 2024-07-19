@@ -3,23 +3,31 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Noir",
-  description: "Noir Architecture Decision Records",
+  description: "Noir Documentation",
   base: "/adr/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'ADRs', link: '/README' }
+      { text: 'ADR', link: '/architecture/README' },
+      { text: 'RFC', link: '/rfc/README' }
     ],
 
     sidebar: [
       {
-        text: 'ADRs',
+        text: 'ADR',
         items: [
-          { text: 'Architecture Decision Records', link: '/README' },
-          { text: 'ADR Creation Process', link: '/PROCESS' }
+          { text: 'Architecture Decision Records (ADR)', link: '/architecture/README' },
+          { text: 'ADR Creation Process', link: '/architecture/PROCESS' }
         ]
       },
+      {
+        text: 'RFC',
+        items: [
+          { text: 'Request for Comments', link: '/rfc/README' },
+          { text: 'RFC Creation Process', link: '/rfc/PROCESS' }
+        ]
+      }
     ],
 
     socialLinks: [
