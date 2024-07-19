@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Noir",
   description: "Noir Documentation",
-  base: "/adr/",
+  base: "/docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -31,7 +31,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/noirhq/adr' }
+      { icon: 'github', link: 'https://github.com/noirhq/docs' }
     ]
   }
 })
